@@ -1,0 +1,55 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <script src="JS/main.js"></script>
+            <title>Assignment #16</title>
+        </head>
+    
+        <body>
+            <h3>Addition</h3>
+           <p id="Math">Click on the button below to enter any number which will be added to 304.</p>  <!-- Addition Operation-->
+           <button onclick="additionFunction()">Add numbers</button> <!-- Button to call function-->
+
+           <h3>Subtration</h3>
+           <p id="subtract">Click on the button below to get the subtraction of 10 - 3.</p>  <!-- Subtraction Operation-->
+           <button onclick="subFunction()">Subtraction</button><br><br><!-- Button to call function-->
+       
+            
+           <form>               <!-- Multiplication & Division Operation-->
+            <h3>Multiplication & Division</h3>
+            1st Number : <input type="text" id="firstNumber" /><br>
+            2nd Number: <input type="text" id="secondNumber" /><br><br>
+            <input type="button" onClick="multiplyBy()" Value="Multiply" /><!-- Button to call function-->
+            <input type="button" onClick="divideBy()" Value="Divide" /><!-- Button to call function-->
+            </form>
+            <p>The Result is : <br>
+            <span id = "result"></span>
+            </p>
+
+            <h3>Modulus</h3>
+            <p id="modulus">Click on the button below to get the remainder of 5 - 3.</p>  <!-- Remainder Operation-->
+            <button onclick="divFunction()">Remainder </button><br><br><!-- Button to call function-->
+            
+            <h3>Negation Operation</h3>
+            <p id="Neg_Math">Click on the button below to show negation operator result of 24.</p>  <!-- Negtion Operator-->
+            <button onclick="negation_operator()">Negation Operator </button><br><br><!-- Button to call function-->
+        
+            <h3>Increment Operation</h3>
+            <p id="Increment">Click on the button below to increment number</p>  <!-- IncrementOperator-->
+            <button onclick="Increment()">Increment </button><br><br><!-- Button to call function-->
+            
+            <h3>Decrement Operation</h3>
+            <p id="Decrement">Click on the button below to decrement number</p>  <!-- Decrement Operator-->
+            <button onclick="Decrement()">Decrement </button><br><br><!-- Button to call function-->
+        
+            <h3>Random Number</h3>
+            <p id="alert">Click on the button below to generate a random number</p>  <!-- Random Number-->
+            <button onclick="Random()">Random Number </button><br><br><!-- Button to call function-->
+        
+        
+        
+        
+        </body>
+
+    </html>
