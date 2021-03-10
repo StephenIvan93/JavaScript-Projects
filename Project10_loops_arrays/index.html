@@ -1,0 +1,46 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <script src="JS/main.js"></script>
+            <title>Assignment #50 - #55</title>
+        </head>
+    
+        <body>
+           <!-------------------- Assignment #50 ------------------------------------->
+           <button onclick="Call_Loop()">Assignment #50</button>
+           <p id="Loop"></p>    
+
+            <!-------------------- Assignment #51 ------------------------------------->
+            <button onclick="for_Loop()">Assignment #51</button>
+            <p id="List_of_Instructions"></p> 
+
+            <!-------------------- Assignment #52 ------------------------------------->
+            <button onclick="array_Function()">Assignment #52</button>
+            <p id="Array"></p> 
+
+            <!-------------------- Assignment #53 ------------------------------------->
+            <button onclick="Constant_Function()">Assignment #53</button>
+            <p id="Constant"></p> 
+
+            <!-------------------- Assignment #54 ------------------------------------->
+            <button onclick="Let_Function()">Assignment #54</button>
+            <p id="Let"></p>
+
+            <!-------------------- Assignment #55 ------------------------------------->
+          <h3>Assignment #55</h3>
+            <p id="movie"></p>
+            <script>
+                var film = {
+                    title: "Greenland",
+                    duration: "2 hours",
+                    release_date: "18 Dec 2020",
+                    genre: "Action/Disaster",
+                    };
+
+                    document.getElementById("movie").innerHTML = "The film on TV lastnight was called " + film.title + ". It was " + film.duration + " long. It was released "
+                    + film.release_date + " and it was an " + film.genre + " type of film."
+            </script>
+        </body>
+
+    </html>
