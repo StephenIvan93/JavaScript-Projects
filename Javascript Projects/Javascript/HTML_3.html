@@ -1,0 +1,34 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <script src="JavaScript_3.js"></script>
+      <!--  <link rel="stylesheet" type="text/css" href="./CSS_1.css"> -->
+      <style>
+        body {background-color: powderblue;}
+        h1   {color: blue;}
+        h3    {color: red;}
+        ul    {font-weight:bold;
+            margin-left: 30px;}
+        </style>
+            <title>Challenge #59</title>
+        </head>
+    
+        <body>
+            <h1>Characters</h1>
+            <h3>Click on a universe to see a character!</h3>
+
+            <ul style="list-style: none;">
+                <li onclick="displayType(this)" id="DC"
+                    data-character-type="Batman">DC</li>
+                <li onclick="displayType(this)" id="Star Wars"
+                data-character-type="Luke">Star Wars</li>
+                <li onclick="displayType(this)" id="Marvel"
+                data-character-type="Thor">Marvel</li>
+                <li onclick="displayType(this)" id="Star Trek"
+                data-character-type="Captain Kirk">Star Trek</li>
+            </ul>
+
+        </body>
+
+    </html>
